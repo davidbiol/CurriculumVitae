@@ -23,7 +23,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
-\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.1cm,nohead,nofoot]{geometry}
+\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=2cm,nohead,nofoot]{geometry}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
@@ -52,7 +52,6 @@
 \def\footrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip 3pt}}
 \setlength{\parindent}{0pt} % Disable paragraph indentation
 \setlength{\headheight}{20pt}
-\setlength{\footskip}{20pt}
 
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR DEFINITIONS

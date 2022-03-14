@@ -93,6 +93,20 @@ tribble(
   )
 ```
 
+# Charlas
+
+```{r}
+library(tibble)
+tribble(
+  ~ Charla, ~ Year, ~ Institution, ~ Where,
+  "Célula vegetal, energía y fotosíntesis", "2022", "Entrenamiento IBO 2022", "",
+  "Manejo de datos faltantes en R: teoría, práctica y recomendaciones", "2021", "datasketch", "Bogotá R Users Group",
+  "Señalización celular en plantas", "2020", "Semillero de Biofísica", "Universidad de Caldas",
+  "Señalización celular en plantas", "2019", "Semillero PHYTOS", "Universidad de Caldas"
+) %>% 
+  detailed_entries(Charla, Year, Institution, Where)
+```
+
 # Participaciones y logros
 
 ```{r}
@@ -128,9 +142,9 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Desc, ~ Institution,
-  2018, "Primer puesto de admisión pregrado Biología", "Universidad de Caldas",
-  2018, "Excención de pago en pregrado segundo periodo académico de 2018", "Universidad Nacional de Colombia, Bogotá",
-  2016, "Reconocimiento a la gestión, buen desempeño académico, laboral y/o talento excepcional", "Secretaría de Educación de Caldas"
+  "2018", "Primer puesto de admisión pregrado Biología", "Universidad de Caldas",
+  "2018", "Excención de pago en pregrado segundo periodo académico de 2018", "Universidad Nacional de Colombia, Bogotá",
+  "2016", "Reconocimiento a la gestión, buen desempeño académico, laboral y/o talento excepcional", "Secretaría de Educación de Caldas"
 ) %>% 
   detailed_entries(
     Desc, 
