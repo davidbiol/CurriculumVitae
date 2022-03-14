@@ -51,6 +51,8 @@
 \def\headrule{}
 \def\footrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip 3pt}}
 \setlength{\parindent}{0pt} % Disable paragraph indentation
+\setlength{\headheight}{20pt}
+\setlength{\footskip}{20pt}
 
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR DEFINITIONS

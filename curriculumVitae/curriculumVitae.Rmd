@@ -1,17 +1,16 @@
 ---
-name: Marie
-surname: Curie
-position: "Professor"
-address: "School of Physics & Chemistry, École Normale Supérieure"
-phone: +1 22 3333 4444
-profilepic: mariecurie.jpg
-www: mariecurie.com
-email: "Marie.Curie@ens.fr"
-twitter: mariecurie
-github: mariecurie
-linkedin: mariecurie
+name: David
+surname: Gutiérrez-Duque
+position: "Estudiante de Biología"
+address: "Universidad de Caldas"
+phone: +57 3185021678
+profilepic: David_photo.jpg
+www: davidbiol.github.io
+email: "davidgd2015@gmail.com"
+github: davidbiol
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Marie is a Polish and naturalized-French physicist and chemist who conducts pioneering research on radioactivity."
+aboutme: "Soy un estudiante de biología, apasionado por las plantas. Me encanta aprender y enseñar utilizando diferentes herramientas disponibles."
+lang: "es"
 output: vitae::twentyseconds
 ---
 
@@ -20,47 +19,140 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# Some stuff about me
+# Competencias
 
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
+ * Creatividad
+ * Buena organización del tiempo
+ * Enseñanza
+ * Bueno trabajando en equipo y liderando proyectos
 
-# Education
+# Educación
 
 ```{r}
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+  "Bachiller", "2006-2017", "Colegio de Cristo", "Manizales, Colombia",
+  "Biólogo", "2018-", "Universidad de Caldas", "Manizales,Caldas"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-# Nobel Prizes
+# Formación académica complementaria
+
+```{r}
+library(tibble)
+tribble(
+  ~ Course, ~ Year, ~ Institution, ~ Where,
+  "Advanced R Programming", "2022", "Johns Hopkins University", "Virtual-Coursera",
+  "Estadística Inferencial con R", "2021", "Platzi", "Virtual-Platzi",
+  "Tecnologías digitales al sevicio de la botánica y la taxonomía", "2021", "", "VI Simposio Regional de Biología",
+  "Plant Bioinformatics", "2020", "University of Toronto", "Virtual-Coursera",
+  "Cell Biology: Mitochondria", "2016", "Harvard", "Virtual-edX",
+) %>% 
+  detailed_entries(Course, Year, Institution, Where)
+```
+
+# Información académica
+
+```{r}
+library(tibble)
+tribble(
+  ~ Desc, ~ Titular,
+  "Semestre", "7",
+  "Promedio", "4.6"
+) %>% 
+  detailed_entries(Titular, Desc)
+```
+
+# Lenguajes de programación
+
+```{r}
+library(tibble)
+tribble(
+  ~ Lenguaje, ~ Nivel,
+  "R", "Avanzado",
+  "Python", "Medio"
+) %>% 
+  detailed_entries(Nivel, Lenguaje)
+```
+
+# Proyectos en curso
 
 ```{r}
 tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+  ~Type, ~Desc,
+  "Taxonomía", "Riqueza, diversidad, composición y estructura de la flora vascular del bosque Monteleón.",
+  "Anatomía vegetal", "Aclimatación y anatomía foliar del complejo de especies Anthurium scandens (Aubl.) Engl. y Anthurium obtusum (Engl.) Grayum en el departamento de Caldas, Colombia.",
+  "Estadística", "Algoritmo para estimación de datos faltantes basado en regresiones lineales iteradas y penalizadas.",
+  "Bioinformática", "Análisis de elementos transponibles de la familia Copia en plantas utilizando Deep Learning."
 ) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
+ detailed_entries(
+    Desc,
+    Type
   )
 ```
 
-# Publications
+# Participaciones y logros
 
 ```{r}
-library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
-
-bibliography_entries("packages.bib") %>%
-  arrange(desc(author$family), issued)
+library(tibble)
+tribble(
+  ~ Participation, ~ Year, ~ Institution, ~ Where,
+  "Participación XXVIII Olimpiada Internacional de Biología", "2017", "University of Warwick", "Warwick, Reino Unido",
+  "Segundo puesto Ronda Final I Olimpiada Colombiana de Biología", "2017", "Universidad Antonio Nariño", "Bogotá, Colombia",
+  "Participación Ronda Final XXXVI Olimpiada Colombiana de Matemáticas", "2017", "Universidad Antonio Nariño", "Bogotá, Colombia",
+  "Participación destacada Ronda FInal XXXII Olimpiada Colombiana de Física", "2016", "Universidad Antonio Nariño", "Bogotá, Colombia",
+  "Medalla de plata III Olimpiada de Ciencias Jr. Americanas", "2016", "", "Cartagena, Colombia",
+  "Cuarto puesto Ronda Final XXII Olimpiada Colombiana de Ciencias", "2016", "Universidad Antonio Nariño", "Bogotá, Colombia"
+) %>% 
+  detailed_entries(Participation, Year, Institution, Where)
 ```
 
+# Eventos académicos
+
+```{r}
+library(tibble)
+tribble(
+  ~ Evento, ~ Year, ~ Institution, ~ Where,
+  "VI Simposio Regional de Biología", "2021", "Universidad de Caldas", "Asistente",
+  "useR! 2021 - The R Conference", "2021", "The R Foundation for Statistical Computing", "Asistente",
+  "XVIII National Congress of Biochemistry and Plant Molecular Biology", "2019", "Mérida, México", "Asistente",
+  "I Congreso Internacional de Biotecnología y Bioeconomía", "2019", "Universidad Tecnológica de Pereira", "Asistente",
+) %>% 
+  detailed_entries(Evento, Year, Institution, Where)
+```
+
+# Reconocimientos
+
+```{r}
+tribble(
+  ~Year, ~Desc, ~ Institution,
+  2018, "Primer puesto de admisión pregrado Biología", "Universidad de Caldas",
+  2018, "Excención de pago en pregrado segundo periodo académico de 2018", "Universidad Nacional de Colombia, Bogotá",
+  2016, "Reconocimiento a la gestión, buen desempeño académico, laboral y/o talento excepcional", "Secretaría de Educación de Caldas"
+) %>% 
+  detailed_entries(
+    Desc, 
+    Year,
+    Institution
+  )
+```
+
+# Publicaciones
+
+1. Orozco-Arias, S.; Dupeyron, M.; Gutiérrez-Duque, D.; Tabares-Soto, R.; Guyot, R. (2022). High nucleotide similarity of three _Copia_ lineage LTR retrotransposons among plant genomes. _bioRxiv_ 2022.02.23.481133; doi: https://doi.org/10.1101/2022.02.23.481133  __(preprint)__
+
+# Referencias
+
+Msc. Nathalia Carolina Pérez Cárdenas  
+Maestra en Ciencias Biológicas, Manejo integral de ecosistemas  
+Profesora asignatura Ecología de Comunidades Universidad Nacional Autónoma de México (UNAM)  
+Teléfono: (+52) 552 659 0278  
+E-mail: ncperezc@iies.unam.mx  
+
+Diana Carolina Ramírez Gonzales  
+Bióloga  
+Coordinadora de monitoreo y alianzas de A prender la Onda. Enseña por Colombia  
+Teléfono: (+57) 311 441 1845  
+E-mail: dc.ramirez@ensenaporcolombia.org   
