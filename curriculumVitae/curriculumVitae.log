@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.13)  14 MAR 2022 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.13)  14 MAR 2022 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,11 +564,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(216.2411pt, 352.81403pt, 28.45274pt)
+* h-part:(L,W,R)=(216.2411pt, 338.58765pt, 42.67912pt)
 * v-part:(T,H,B)=(2.84544pt, 785.2959pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=352.81403pt
+* \textwidth=338.58765pt
 * \textheight=785.2959pt
 * \oddsidemargin=143.97112pt
 * \evensidemargin=143.97112pt
@@ -672,63 +672,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--166
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 174--174
-[][]\T1/ClearSans-TLF/regular/n/10 Aclimatación y anatomía fo-liar del com-plejo de es-pecies An-
- []
-
-
-Overfull \hbox (18.02312pt too wide) in alignment at lines 172--177
+Overfull \hbox (33.22765pt too wide) in alignment at lines 172--174
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--178
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--190
+Overfull \hbox (20.44159pt too wide) in alignment at lines 181--186
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--199
 
  []
 
 [1
 
 {/home/david/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./David_photo.jpg>]
-Underfull \hbox (badness 6032) in paragraph at lines 199--199
+Underfull \hbox (badness 1496) in paragraph at lines 208--208
 [][]\T1/ClearSans-TLF/regular/n/10 Participación Ronda Fi-nal XXXVI Olimpiada Colom-biana de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--216
+Underfull \hbox (badness 10000) in paragraph at lines 219--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--227
+Underfull \hbox (badness 10000) in paragraph at lines 231--236
 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 236.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 236.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not available
 (Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 245.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
 (Font)              scaled to size 10.0pt on input line 245.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 249.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 249.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 249.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 15.4pt, for example:
 (fancyhdr)                \setlength{\footskip}{15.4pt}.
 
 [2]
+Underfull \hbox (badness 4608) in paragraph at lines 254--261
+\T1/ClearSans-TLF/regular/n/10 Profesora asig-natura Ecología de Co-mu-nidades Uni-ver-si-dad Na-cional
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 15.4pt, for example:
@@ -740,18 +749,18 @@ Package rerunfilecheck Info: File `curriculumVitae.out' has not changed.
  )
 (\end occurred when \ifnum on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 23164 strings out of 480236
- 429041 string characters out of 5895451
- 710516 words of memory out of 5000000
- 40695 multiletter control sequences out of 15000+600000
+ 23166 strings out of 480236
+ 429081 string characters out of 5895451
+ 712546 words of memory out of 5000000
+ 40696 multiletter control sequences out of 15000+600000
  500208 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 115i,12n,118p,591b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,11n,118p,593b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}</home/david/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on curriculumVitae.pdf (3 pages, 151581 bytes).
+Output written on curriculumVitae.pdf (3 pages, 151977 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

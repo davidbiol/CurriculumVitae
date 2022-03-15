@@ -23,7 +23,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
-\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=2cm,nohead,nofoot]{geometry}
+\RequirePackage[left=7.6cm,top=0.1cm,right=1.5cm,bottom=2cm,nohead,nofoot]{geometry}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 

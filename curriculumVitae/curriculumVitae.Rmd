@@ -77,6 +77,17 @@ tribble(
   detailed_entries(Nivel, Lenguaje)
 ```
 
+# Experiencia Laboral
+
+```{r}
+library(tibble)
+tribble(
+  ~ Experience, ~ Year, ~ Institution, ~ Where,
+  "Implementación del programa de monitoreo de flora de la mina de Cerro Matoso", "Nov 2021-Ene 2022", "CUÁNTICO - Global Eco Services S.A.S.", "Montelíbano, Córdoba, Colombia",
+) %>% 
+  detailed_entries(Experience, Year, Institution, Where)
+```
+
 # Proyectos en curso
 
 ```{r}
