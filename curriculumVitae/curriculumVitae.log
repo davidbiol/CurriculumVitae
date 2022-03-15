@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.13)  14 MAR 2022 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.13)  14 MAR 2022 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,131 +610,132 @@ LaTeX Info: Redefining \nameref on input line 92.
 <David_photo.jpg, id=7, 867.24pt x 866.23625pt>
 File: David_photo.jpg Graphic file (type jpg)
 <use David_photo.jpg>
-Package pdftex.def Info: David_photo.jpg  used on input line 103.
+Package pdftex.def Info: David_photo.jpg  used on input line 117.
 (pdftex.def)             Requested size: 142.26378pt x 142.0901pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <20.74> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 103.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 103.
+(Font)              scaled to size 20.74pt on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 [][][]\T1/ClearSans-TLF/regular/n/20.74 David Gutiérrez-
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 103.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 103.
+(Font)              scaled to size 14.4pt on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <7> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 103.
+(Font)              <5> on input line 117.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 117.
 (/home/david/.TinyTeX/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-LaTeX Font Info:    Trying to load font information for T1+DejaVuSansMono-TLF on input line 103.
+LaTeX Font Info:    Trying to load font information for T1+DejaVuSansMono-TLF on input line 117.
 (/home/david/.TinyTeX/texmf-dist/tex/latex/dejavu/T1DejaVuSansMono-TLF.fd
 File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono-TLF.
 )
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 8.6pt on input line 103.
-LaTeX Font Info:    Trying to load font information for TS1+ClearSans-TLF on input line 114.
+(Font)              scaled to size 8.6pt on input line 117.
+LaTeX Font Info:    Trying to load font information for TS1+ClearSans-TLF on input line 128.
 (/home/david/.TinyTeX/texmf-dist/tex/latex/clearsans/TS1ClearSans-TLF.fd
 File: TS1ClearSans-TLF.fd 2019/10/16 (autoinst) Font definitions for TS1/ClearSans-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/m/n' in size <10> not available
-(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 114.
+(Font)              Font shape `TS1/ClearSans-TLF/regular/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `TS1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 129.
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 129.
+(Font)              scaled to size 8.0pt on input line 143.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--146
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--156
+Underfull \hbox (badness 10000) in paragraph at lines 153--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
 
-Overfull \hbox (33.22765pt too wide) in alignment at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 177--186
+
+ []
+
+
+Overfull \hbox (33.22765pt too wide) in alignment at lines 192--194
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--175
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
  []
 
 
-Overfull \hbox (20.44159pt too wide) in alignment at lines 181--186
+Overfull \hbox (20.44159pt too wide) in alignment at lines 201--206
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--199
+Underfull \hbox (badness 10000) in paragraph at lines 201--207
 
  []
 
 [1
 
 {/home/david/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./David_photo.jpg>]
-Underfull \hbox (badness 1496) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 213--219
+
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 228--228
 [][]\T1/ClearSans-TLF/regular/n/10 Participación Ronda Fi-nal XXXVI Olimpiada Colom-biana de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--213
+Underfull \hbox (badness 10000) in paragraph at lines 225--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--225
+Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--236
+Underfull \hbox (badness 10000) in paragraph at lines 251--256
 
  []
 
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 245.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 249.
+(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on input line 256.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 249.
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 256.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 249.
+(Font)              scaled to size 10.0pt on input line 256.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 15.4pt, for example:
 (fancyhdr)                \setlength{\footskip}{15.4pt}.
 
 [2]
-Underfull \hbox (badness 4608) in paragraph at lines 254--261
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 265.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 265.
+
+Underfull \hbox (badness 4608) in paragraph at lines 274--281
 \T1/ClearSans-TLF/regular/n/10 Profesora asig-natura Ecología de Co-mu-nidades Uni-ver-si-dad Na-cional
  []
 
@@ -750,14 +751,14 @@ Package rerunfilecheck Info: File `curriculumVitae.out' has not changed.
 (\end occurred when \ifnum on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
  23166 strings out of 480236
- 429081 string characters out of 5895451
- 712546 words of memory out of 5000000
+ 429053 string characters out of 5895451
+ 715546 words of memory out of 5000000
  40696 multiletter control sequences out of 15000+600000
  500208 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  115i,11n,118p,593b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}</home/david/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on curriculumVitae.pdf (3 pages, 151977 bytes).
+Output written on curriculumVitae.pdf (3 pages, 153133 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
