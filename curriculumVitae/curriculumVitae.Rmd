@@ -170,6 +170,22 @@ tribble(
   )
 ```
 
+# Software
+
+```{r}
+tribble(
+  ~Type, ~Desc, ~Link,
+  "R", "empire: Estimation of Missing Data using Penalized Iterative Regressions", "https://davidbiol.github.io/empire/"
+) %>% 
+ detailed_entries(
+    Desc,
+    Type,
+    Link
+  )
+```
+
+
+
 # Publicaciones
 
 1. Orozco-Arias, S.; Dupeyron, M.; Gutiérrez-Duque, D.; Tabares-Soto, R.; Guyot, R. (2022). High nucleotide similarity of three _Copia_ lineage LTR retrotransposons among plant genomes. _bioRxiv_ 2022.02.23.481133; doi: https://doi.org/10.1101/2022.02.23.481133  __(preprint)__

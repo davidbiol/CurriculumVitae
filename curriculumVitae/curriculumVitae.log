@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.13)  14 MAR 2022 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.13)  3 APR 2022 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,12 +730,16 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{15.4pt}.
 
 [2]
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
-(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 265.
-LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 265.
+Underfull \hbox (badness 10000) in paragraph at lines 262--265
 
-Underfull \hbox (badness 4608) in paragraph at lines 274--281
+ []
+
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not available
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on input line 274.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 274.
+
+Underfull \hbox (badness 4608) in paragraph at lines 283--290
 \T1/ClearSans-TLF/regular/n/10 Profesora asig-natura Ecología de Co-mu-nidades Uni-ver-si-dad Na-cional
  []
 
@@ -750,18 +754,18 @@ Package rerunfilecheck Info: File `curriculumVitae.out' has not changed.
  )
 (\end occurred when \ifnum on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 23166 strings out of 480236
- 429053 string characters out of 5895451
- 715546 words of memory out of 5000000
- 40696 multiletter control sequences out of 15000+600000
+ 23168 strings out of 480236
+ 429071 string characters out of 5895451
+ 715568 words of memory out of 5000000
+ 40697 multiletter control sequences out of 15000+600000
  500208 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  115i,11n,118p,593b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/home/david/.TinyTeX/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}</home/david/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></home/david/.TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on curriculumVitae.pdf (3 pages, 153133 bytes).
+Output written on curriculumVitae.pdf (3 pages, 153406 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
