@@ -8,8 +8,8 @@ profilepic: David_photo.jpg
 www: davidbiol.github.io
 email: "davidgd2015@gmail.com"
 github: davidbiol
-date: "marzo 2022"
-aboutme: "Soy un estudiante de biología apasionado por las plantas. Me encanta aprender y enseñar utilizando diferentes herramientas disponibles.  Tengo experiencia en trabajo de campo y de computador. En campo he ejecutado metodologías de estructura florística con construcción de parcelas forestales, también tengo conocimientos taxonómicos en las principales familias vegetales, así como analizar estos datos para obtener IVI, IVIA Y diversidad.  En computador tengo conocimiento en análisis estadístico en R, desde análisis descriptivo, inferencial, perfilamiento de código, programación funcional y programación orientada a objetos, hasta desarrollo de paquetes estadísticos, cobertura de código, integración continua y documentación de código, así como también haber trabajado con redes neuronales y análisis espacial.  En bioinformática tengo conocimiento en análisis genómico, utilizando principalmente Python y Bash para aplicar algoritmos de inteligencia artificial en genomas vegetales tanto desde un CPU local, como en Clusters remotos de GPU. En laboratorio no tengo mucha experiencia, pero esoy abierto a aprender y complementar."
+date: "agosto 2022"
+aboutme: "Soy un estudiante de biología apasionado por las plantas. Me encanta aprender y enseñar utilizando diferentes herramientas disponibles.  Tengo experiencia en trabajo de campo y de computador. En campo he ejecutado metodologías de estructura florística con construcción de parcelas forestales, también tengo conocimientos taxonómicos en las principales familias vegetales y sus análsis respectivos. En bioinformática tengo conocimiento en análisis genómico, en especial para comprender la transferencia horizontal de genes en plantas"
 lang: "es"
 output: vitae::twentyseconds
 ---
@@ -44,26 +44,14 @@ tribble(
 library(tibble)
 tribble(
   ~ Course, ~ Year, ~ Institution, ~ Where,
+  "Hands-on Introduction to Linux commands and Shell scripting", "2022", "IBM", "Virtual-Coursera",
   "Advanced R Programming", "2022", "Johns Hopkins University", "Virtual-Coursera",
+  "Helechos y Licofitos tropicales", "2021", "Universidad de Caldas", "Presencial",
   "Estadística Inferencial con R", "2021", "Platzi", "Virtual-Platzi",
   "Tecnologías digitales al sevicio de la botánica y la taxonomía", "2021", "", "VI Simposio Regional de Biología",
-  "Desarrollo de habilidades comunicativas", "2020", "Universidad de Caldas", "Vicerrectoría de Investigaciones y posgrados",
   "Plant Bioinformatics", "2020", "University of Toronto", "Virtual-Coursera",
-  "Cell Biology: Mitochondria", "2016", "Harvard", "Virtual-edX",
 ) %>% 
   detailed_entries(Course, Year, Institution, Where)
-```
-
-# Información académica
-
-```{r}
-library(tibble)
-tribble(
-  ~ Desc, ~ Titular,
-  "Semestre", "7",
-  "Promedio", "4.6"
-) %>% 
-  detailed_entries(Titular, Desc)
 ```
 
 # Tecnologías
@@ -74,11 +62,8 @@ tribble(
   ~ Lenguaje, ~ Nivel,
   "R", "Avanzado",
   "Python", "Medio",
+  "Bash", "Medio",
   "Git", "Medio",
-  "Bash", "Básico",
-  "SQL", "Básico",
-  "JavaScript", "Básico",
-  "HTML-CSS","Básico"
 ) %>% 
   detailed_entries(Nivel, Lenguaje)
 ```
@@ -99,7 +84,8 @@ tribble(
 ```{r}
 tribble(
   ~Type, ~Desc,
-  "Taxonomía", "Riqueza, diversidad, composición y estructura de la flora vascular del bosque Monteleón.",
+  "Taxonomía", "Riqueza, diversidad, composición y estructura de la flora vascular del bosque Monteleón (Manizales, Caldas).",
+  "Taxonomía", "Helechos en medio de una selva de cemento: Un estudio de los monilofitos y licofitos en los ecoparques de Manizales, Caldas.",
   "Anatomía vegetal", "Aclimatación y anatomía foliar del complejo de especies Anthurium scandens (Aubl.) Engl. y Anthurium obtusum (Engl.) Grayum en el departamento de Caldas, Colombia.",
   "Estadística", "Algoritmo para estimación de datos faltantes basado en regresiones lineales iteradas y penalizadas.",
   "Bioinformática", "Análisis de elementos transponibles de la familia Copia en plantas utilizando Deep Learning."
